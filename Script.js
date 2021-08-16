@@ -13,11 +13,6 @@ var name = prompt("What is your name?");
 
 function withYourFace(name){
 	alert(name+ " with your face like "+ adjectives[Math.floor(Math.random() * 33)]+" "+nouns[Math.floor(Math.random() * 45)]+".");
-	alert(name+" with your face like "+ adjectives[Math.floor(Math.random() * 33)]+" "+nouns[Math.floor(Math.random() * 45)]+".");
-	alert(name+" with your face like "+ adjectives[Math.floor(Math.random() * 33)]+" "+nouns[Math.floor(Math.random() * 45)]+".");
-	alert(name+ " with your face like "+ adjectives[Math.floor(Math.random() * 33)]+" "+nouns[Math.floor(Math.random() * 45)]+".");
-	alert(name+" with your face like "+ adjectives[Math.floor(Math.random() * 33)]+" "+nouns[Math.floor(Math.random() * 45)]+".");
-	alert(name+" with your face like "+ adjectives[Math.floor(Math.random() * 33)]+" "+nouns[Math.floor(Math.random() * 45)]+".");
 }
 
-withYourFace(name)
+for (var i = 1; i < 6; i++) withYourFace(name);
